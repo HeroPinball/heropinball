@@ -46,18 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AutoFlip.cs" />
-     <Compile Include="Assets\Scripts\BumperScript.cs" />
      <Compile Include="Assets\Scripts\LeroyControl.cs" />
-     <Compile Include="Assets\Scripts\Move.cs" />
-     <Compile Include="Assets\Scripts\reset.cs" />
-     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5E3A34AB-C3DD-88F2-7C06-66C03923D105}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{2565AEDB-9AF9-D00B-29A1-30E7D93E5881}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
