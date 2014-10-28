@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LeroyControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LeroyControl.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerControl.cs" Line="6" Column="1" />
-      <File FileName="Assets/LeroyControl.cs" Line="29" Column="2" />
+      <File FileName="Assets/Scripts/LeroyControl.cs" Line="9" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
