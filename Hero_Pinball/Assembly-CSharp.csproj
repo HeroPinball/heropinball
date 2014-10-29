@@ -46,7 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyControl.cs" />
+     <Compile Include="Assets\Scripts\EnemyControl.cs" />
+     <Compile Include="Assets\Scripts\IDamagable.cs" />
      <Compile Include="Assets\Scripts\LeroyControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
