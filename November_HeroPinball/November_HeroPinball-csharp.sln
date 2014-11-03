@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{7A01A916-A583-8774-763F-75DE924EFE8B}") = "Hero_Pinball", "Assembly-CSharp.csproj", "{B8203C94-B31F-5E86-AAF7-DB201523767F}"
+Project("{D959375A-3572-E9B6-23C9-1AA3803CA64E}") = "November_HeroPinball", "Assembly-CSharp-vs.csproj", "{97A694D7-9C0C-C72E-6DE6-014F13C6E0A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8203C94-B31F-5E86-AAF7-DB201523767F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8203C94-B31F-5E86-AAF7-DB201523767F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8203C94-B31F-5E86-AAF7-DB201523767F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8203C94-B31F-5E86-AAF7-DB201523767F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A694D7-9C0C-C72E-6DE6-014F13C6E0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A694D7-9C0C-C72E-6DE6-014F13C6E0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A694D7-9C0C-C72E-6DE6-014F13C6E0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A694D7-9C0C-C72E-6DE6-014F13C6E0A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
