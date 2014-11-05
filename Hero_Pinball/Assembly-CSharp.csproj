@@ -46,10 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Prefabs\Characters\Creep\CreepWorking\EnemyControl.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Bumper\RoundBumper\BumperScript.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Flipper\FlipperControl.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+=======
+     <Compile Include="Assets\Prefabs\Characters\Creep\EnemyControl.cs" />
+     <Compile Include="Assets\Scripts\BossBehavior.cs" />
+>>>>>>> FETCH_HEAD
      <Compile Include="Assets\Scripts\IDamagable.cs" />
      <Compile Include="Assets\Scripts\LeroyControl.cs" />
   </ItemGroup>
