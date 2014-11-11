@@ -26,9 +26,12 @@ public class LeroyControl : MonoBehaviour
 
 	private Vector3 spawn;
 
+	public Animator animator;
+
 	void Awake()
 	{
 		spawn = transform.position;
+
 	}
 
 	void OnCollisionEnter2D(Collision2D c)
@@ -107,6 +110,8 @@ public class LeroyControl : MonoBehaviour
 			jump = false;
 		}
 
+		if (Input.GetButtonDown ("Fire1")) 
+						animator.Play ("AttackSprite");
 
 	}
 	
