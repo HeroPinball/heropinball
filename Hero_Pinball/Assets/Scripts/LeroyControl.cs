@@ -21,7 +21,7 @@ public class LeroyControl : MonoBehaviour
 
 	private float input;
 
-	private float vX;
+	//private float vX;
 	private float vY;
 
 	private Vector3 spawn;
@@ -66,7 +66,7 @@ public class LeroyControl : MonoBehaviour
 
 		input = Input.GetAxis("Horizontal");
 
-		vX = rigidbody2D.velocity.x;
+		//vX = rigidbody2D.velocity.x;
 		vY = rigidbody2D.velocity.y;
 
 		maxSpeed = Mathf.Max (vY, maxWalkSpeed);
