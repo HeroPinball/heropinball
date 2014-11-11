@@ -62,7 +62,7 @@ public class LeroyControl : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));   
+		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
 
 		input = Input.GetAxis("Horizontal");
 
