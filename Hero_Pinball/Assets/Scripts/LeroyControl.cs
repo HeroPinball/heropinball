@@ -5,7 +5,7 @@ using System;
 public class LeroyControl : MonoBehaviour
 
 {
-	private int health = 3;
+	public int health = 3;
 	private int lives = 3;
 
 	private float maxWalkSpeed = 3.0f;
@@ -158,6 +158,11 @@ public class LeroyControl : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	int getHealth()
+	{
+		return health;
 	}
 
 }

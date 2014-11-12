@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\LauncherScript.cs" />
      <Compile Include="Assets\OneWayPlatform.cs" />
      <Compile Include="Assets\Prefabs\Characters\Creep\CreepWorking\EnemyControl.cs" />
