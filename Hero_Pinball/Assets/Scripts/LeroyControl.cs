@@ -16,7 +16,9 @@ public class LeroyControl : MonoBehaviour
 	private Boolean facingRight = true;
 	private Boolean grounded; 
 	private Boolean jump;
-
+	public bool attacking;
+	private static int attackTime = 40;
+	private int attackTimeCur = attackTime;
 	public Transform groundCheck;
 
 	private float input;
@@ -27,17 +29,18 @@ public class LeroyControl : MonoBehaviour
 	private Vector3 spawn;
 
 	public Animator animator;
+	private GameObject sword;
 
 	void Awake()
 	{
 		spawn = transform.position;
-
+		sword = GameObject.FindGameObjectWithTag("Sword");
 	}
 
 	void OnCollisionEnter2D(Collision2D c)
 	{
 
-		if (c.gameObject.CompareTag ("Damaging")) 
+		if (c.gameObject.CompareTag ("Damaging") && !attacking) 
 		{
 			Debug.Log ("ow");
 			health--;
@@ -53,6 +56,19 @@ public class LeroyControl : MonoBehaviour
 					c.gameObject.tag = "Player";
 					Destroy (gameObject);
 				}
+			}
+		}
+
+		if (c.gameObject.CompareTag ("killBox")) 
+		{
+			lives--;
+			health = 3;
+			Debug.Log ("DEAD!");
+			transform.position = spawn;
+			if (lives == 0)
+			{
+				c.gameObject.tag = "Player";
+				Destroy (gameObject);
 			}
 		}
 
@@ -110,8 +126,25 @@ public class LeroyControl : MonoBehaviour
 			jump = false;
 		}
 
-		if (Input.GetButtonDown ("Fire1")) 
-						animator.Play ("AttackSprite");
+		if (Input.GetButtonDown ("Fire1") && !attacking) 
+		{
+			animator.SetTrigger("Attack");
+			attacking = true;
+			sword.SendMessage("isAttacking");
+		}
+		if (attacking) 
+		{
+			attackTimeCur--;
+			if (attackTimeCur == 0)
+			{
+				attacking = false;
+				attackTimeCur = attackTime;
+				sword.SendMessage("notAttacking");
+			}
+				
+		}
+
+
 
 	}
 	

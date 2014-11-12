@@ -13,11 +13,14 @@ public class OneWayPlatform : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (player.rigidbody2D.velocity.y > 0)
-			Physics2D.IgnoreLayerCollision (10,9, true);
-		else
-			Physics2D.IgnoreLayerCollision (10,9, false);
-	}
+		if (player != null)
+			{
+			if (player.rigidbody2D.velocity.y > 0)
+				Physics2D.IgnoreLayerCollision (10,9, true);
+			else
+				Physics2D.IgnoreLayerCollision (10,9, false);
+			}
+		}
 	
 	void OnCollisionEnter2D(Collision2D c)
 	{
