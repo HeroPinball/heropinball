@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 185a9d2ee14244620b5ed5657d87d671
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LeroyAttackSpriteSheet_0
+    21300002: LeroyAttackSpriteSheet_1
+    21300004: LeroyAttackSpriteSheet_2
+    21300006: LeroyAttackSpriteSheet_3
+    21300008: LeroyAttackSpriteSheet_5
+    21300010: LeroyAttackSpriteSheet_6
+    21300012: LeroyAttackSpriteSheet_7
+    21300014: LeroyAttackSpriteSheet_8
+    21300016: LeroyAttackSpriteSheet_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LeroyAttackSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 240
+        height: 437
+      alignment: 9
+      pivot: {x: .625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 215
+        height: 437
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 217
+        height: 437
+      alignment: 9
+      pivot: {x: .625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 222
+        height: 437
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 280
+        height: 437
+      alignment: 9
+      pivot: {x: .699999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1
+        width: 277
+        height: 436
+      alignment: 9
+      pivot: {x: .680000007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 0
+        width: 195
+        height: 437
+      alignment: 9
+      pivot: {x: .569999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 0
+        width: 264
+        height: 437
+      alignment: 9
+      pivot: {x: .680000007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyAttackSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 0
+        width: 228
+        height: 437
+      alignment: 9
+      pivot: {x: .625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

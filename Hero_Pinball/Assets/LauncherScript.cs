@@ -6,10 +6,10 @@ public class LauncherScript : MonoBehaviour {
 	private float x;
 	private float y;
 	private float z;
-	private float scaleShrink = 0.02f;
-	private float scaleGrow = 0.3f;
+	private float scaleShrink = 0.04f;
+	private float scaleGrow = 0.4f;
 	private float initScaleY;
-	private int launchForce = 150;
+	private int launchForce = 200;
 	private bool touchingPlayer;
 	// Use this for initialization
 	void Start () 

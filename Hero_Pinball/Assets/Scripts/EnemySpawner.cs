@@ -14,13 +14,13 @@ public class EnemySpawner : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// Update is called once per framze
 	void FixedUpdate () 
 	{
 		timer--;
 
 
-		if (numEnemies <= maxEnemies && timer < 0) 
+		if (numEnemies < maxEnemies && timer < 0) 
 		{
 			numEnemies++;
 			Instantiate (creep, transform.position, transform.rotation);

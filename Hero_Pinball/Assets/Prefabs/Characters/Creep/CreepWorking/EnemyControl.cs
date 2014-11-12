@@ -12,22 +12,26 @@ public class EnemyControl : MonoBehaviour
 	public static int initWaitTime = 150;
 	public int waitTime = initWaitTime;
 	public int jumpForce = 200;
+	public int lifespan = 3000;
 
 	public Transform groundCheck;
 	public Transform groundCheck2;
 	private Boolean grounded;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+		rigidbody2D.AddForce (new Vector2 (UnityEngine.Random.Range (-300, 300), UnityEngine.Random.Range (-300, 300)));
 	
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-		grounded = Physics2D.Linecast(groundCheck.position, groundCheck2.position, 1 << LayerMask.NameToLayer("Ground"));   
+		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
 
 		waitTime--;
+		lifespan--;
 
 		if (waitTime == 0) 
 		{
@@ -47,6 +51,8 @@ public class EnemyControl : MonoBehaviour
 			waitTime = initWaitTime;
 		}
 
+		if (lifespan < 0)
+						kill ();
 	
 	}
 
@@ -70,10 +76,21 @@ public class EnemyControl : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D c)
 	{
 
-		if (c.gameObject.CompareTag ("Sword"))
+		if (c.gameObject.CompareTag ("Sword") )
 		{
-				Destroy (gameObject);
-				GameObject.FindGameObjectWithTag("Spawner").SendMessage("enemyKilled");
+			kill();
+		}
+
+		if (c.gameObject.CompareTag ("killBox"))
+		{
+			kill();
 		}
 	}
+
+	void kill()
+	{
+		Destroy (gameObject);
+		GameObject.FindGameObjectWithTag("Spawner").SendMessage("enemyKilled");
+	}
+		
 }
