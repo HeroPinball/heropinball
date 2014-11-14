@@ -14,7 +14,7 @@ public class HealthBar : MonoBehaviour {
 	void Start () {
 	
 		player = GameObject.FindGameObjectWithTag("Player");
-		w = 100;
+		w = 300;
 		x = guiTexture.pixelInset.x;
 		y = guiTexture.pixelInset.y;
 		h = guiTexture.pixelInset.height;
@@ -27,7 +27,7 @@ public class HealthBar : MonoBehaviour {
 	{
 		if (player != null)
 		{
-			guiTexture.pixelInset = new Rect(x,y, w * script.health,h);
+			guiTexture.pixelInset = new Rect(x,y, w * script.health / LeroyControl.maxHealth,h);
 		}
 	
 	}

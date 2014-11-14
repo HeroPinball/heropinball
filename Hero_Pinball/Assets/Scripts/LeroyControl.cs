@@ -5,8 +5,10 @@ using System;
 public class LeroyControl : MonoBehaviour
 
 {
-	public int health = 3;
-	private int lives = 3;
+	public static int maxHealth = 5;
+	public int health = maxHealth;
+	public static int startLives;
+	public int lives = startLives;
 
 	private float maxWalkSpeed = 3.0f;
 	private float maxSpeed = 3.0f;
@@ -17,7 +19,7 @@ public class LeroyControl : MonoBehaviour
 	private Boolean grounded; 
 	private Boolean jump;
 	public bool attacking;
-	private static int attackTime = 40;
+	private static int attackTime = 35;
 	private int attackTimeCur = attackTime;
 	public Transform groundCheck;
 
@@ -48,13 +50,12 @@ public class LeroyControl : MonoBehaviour
 			{
 
 				lives--;
-				health = 3;
+				health = maxHealth;
 				Debug.Log ("DEAD!");
 				transform.position = spawn;
 				if (lives == 0)
 				{
-					c.gameObject.tag = "Player";
-					Destroy (gameObject);
+					gameOver(c.gameObject);
 				}
 			}
 		}
@@ -62,20 +63,22 @@ public class LeroyControl : MonoBehaviour
 		if (c.gameObject.CompareTag ("killBox")) 
 		{
 			lives--;
-			health = 3;
+			health = maxHealth;
 			Debug.Log ("DEAD!");
 			transform.position = spawn;
 			if (lives == 0)
 			{
-				c.gameObject.tag = "Player";
-				Destroy (gameObject);
+				gameOver(c.gameObject);
 			}
 		}
 
 	}
 
-	void death()
+	void gameOver(GameObject c)
 	{
+		c.gameObject.tag = "Player";
+		Destroy (gameObject);
+		Application.LoadLevel("GameOver");
 
 	}
 
