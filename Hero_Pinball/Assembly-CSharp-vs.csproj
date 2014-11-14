@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\HeartPickup.cs" />
      <Compile Include="Assets\Scripts\IDamagable.cs" />
      <Compile Include="Assets\Scripts\LeroyControl.cs" />
+     <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\SwordScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
