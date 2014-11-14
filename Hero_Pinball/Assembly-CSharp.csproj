@@ -51,7 +51,7 @@
      <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\LauncherScript.cs" />
      <Compile Include="Assets\OneWayPlatform.cs" />
-     <Compile Include="Assets\Prefabs\Characters\Creep\CreepWorking\EnemyControl.cs" />
+     <Compile Include="Assets\Prefabs\Characters\Creep\EnemyControl.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Bumper\RoundBumper\BumperScript.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Flipper\FlipperControl.cs" />
      <Compile Include="Assets\Scripts\BossBehavior.cs" />

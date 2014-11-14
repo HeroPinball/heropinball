@@ -18,6 +18,8 @@ public class EnemyControl : MonoBehaviour
 	public Transform groundCheck2;
 	private Boolean grounded;
 
+	public Animator animator;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -89,7 +91,8 @@ public class EnemyControl : MonoBehaviour
 
 	void kill()
 	{
-		Destroy (gameObject);
+		Destroy (gameObject, 0.25f);
+		animator.SetTrigger("Dead");
 		GameObject.FindGameObjectWithTag("Spawner").SendMessage("enemyKilled");
 	}
 		

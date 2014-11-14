@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: eab4c529a51d64a51bb14bbdfd3b670f
+guid: 11a41f5c055574e1db6774605b5ccf19
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Creep_0
-    21300002: Creep_1
+    21300000: CreepDeath
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -33,7 +32,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,26 +43,6 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: Creep_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 211
-        height: 240
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Creep_1
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 0
-        width: 215
-        height: 232
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
