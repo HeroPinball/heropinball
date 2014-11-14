@@ -10,7 +10,6 @@ public class HealthBar : MonoBehaviour {
 	private float y;
 	public float w;
 	private float h;
-
 	// Use this for initialization
 	void Start () {
 	
