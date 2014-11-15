@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SwordScript : MonoBehaviour {
 
+	public int score = 0;
 	private bool attacking;
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class SwordScript : MonoBehaviour {
 		{
 	
 			c.gameObject.SendMessage("kill");
+			score = score + 100;
 		}
 
 	}

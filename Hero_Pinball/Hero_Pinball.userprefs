@@ -1,18 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prefabs/Characters/Creep/CreepWorking/EnemyControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HeartScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/StartMenu.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/LeroyControl.cs" Line="81" Column="35" />
-      <File FileName="Assets/Scripts/FireballScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Prefabs/Characters/Creep/CreepWorking/EnemyControl.cs" Line="94" Column="28" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/LauncherScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/OneWayPlatform.cs" Line="1" Column="1" />
-      <File FileName="Assets/SwordScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/HealthBar.cs" Line="1" Column="1" />
-      <File FileName="Assets/GUILivesScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameOverScreen.cs" Line="16" Column="5" />
+      <File FileName="Assets\Scripts\CoinScript.cs" Line="5" Column="1" />
+      <File FileName="Assets\Scripts\HeartScript.cs" Line="41" Column="1" />
+      <File FileName="Assets\Scripts\LeroyControl.cs" Line="88" Column="28" />
+      <File FileName="Assets\HealthBar.cs" Line="30" Column="62" />
+      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BossBehavior.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

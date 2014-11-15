@@ -9,6 +9,7 @@ public class LeroyControl : MonoBehaviour
 	public int health = maxHealth;
 	public static int startLives;
 	public int lives = startLives;
+	public int maxHealthRef;
 
 	private float maxWalkSpeed = 3.0f;
 	private float maxSpeed = 3.0f;
@@ -84,6 +85,8 @@ public class LeroyControl : MonoBehaviour
 
 	void FixedUpdate ()
 	{
+		maxHealthRef = maxHealth;
+
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
 
 		input = Input.GetAxis("Horizontal");
