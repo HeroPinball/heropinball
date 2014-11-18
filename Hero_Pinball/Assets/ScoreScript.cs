@@ -3,26 +3,26 @@ using System.Collections;
 
 public class ScoreScript : MonoBehaviour {
 	
-	public GameObject sword;
+	private GameObject sword;
 
-	public GameObject coin;
+	//private GameObject coin;
 	
-	public SwordScript script;
+	private SwordScript script;
 
-	public CoinScript cScript;
+	//private CoinScript cScript;
 	
 	// Use this for initialization
 	void Start () {
 		
 		sword = GameObject.FindGameObjectWithTag("Sword");
-		coin = GameObject.FindGameObjectWithTag("Coin");
+		//coin = GameObject.FindGameObjectWithTag("Coin");
 		script = sword.GetComponent<SwordScript>();
-		cScript = coin.GetComponent<CoinScript>();
+		//cScript = coin.GetComponent<CoinScript>();
 	}
 	
 	void FixedUpdate()
 	{
-		guiText.text = "Score: " + (script.score + cScript.score);
+		guiText.text = "Score: " + (script.score);
 	}
 	
 }

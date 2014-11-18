@@ -6,10 +6,10 @@ public class LauncherScript : MonoBehaviour {
 	private float x;
 	private float y;
 	private float z;
-	private float scaleShrink = 0.04f;
-	private float scaleGrow = 0.4f;
+	private float scaleShrink = 0.01f;
+	private float scaleGrow = 0.2f;
 	private float initScaleY;
-	private int launchForce = 200;
+	private int launchForce = 300;
 	private bool touchingPlayer;
 	// Use this for initialization
 	void Start () 
@@ -27,8 +27,9 @@ public class LauncherScript : MonoBehaviour {
 		z = transform.localScale.z;
 		
 
-		if (Input.GetAxis ("Vertical") < 0 && y > .8)
+		if (Input.GetAxis ("Vertical") < 0 && y > initScaleY * 0.2)
 		{
+			
 			transform.localScale = new Vector3 (x,y - scaleShrink , z );
 		}
 		

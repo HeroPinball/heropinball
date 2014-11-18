@@ -14,14 +14,22 @@ public class StartMenu : MonoBehaviour
 
 		GUI.skin = custGUISkin;
 		//Displays buttons
-		if (GUI.Button (new Rect (Screen.width * 0.18f, Screen.height * 0.18f, 270, 85), "Play")) 
+		if (GUI.Button (new Rect (Screen.width * 0.15f, Screen.height * 0.18f, 270, 75), "Play")) 
 		{
-			Application.LoadLevel(1);
+			Application.LoadLevel("Alpha");
 		}
 
-		GUI.Button (new Rect (Screen.width * 0.18f, Screen.height * 0.25f, 270, 85), "Instructions");
+		if(GUI.Button (new Rect (Screen.width * 0.15f, Screen.height * 0.28f, 270, 75), "Instructions"))
+		{
+			Application.LoadLevel("Instructions");
+		}
+		
+		
+		if(GUI.Button (new Rect (Screen.width * 0.15f, Screen.height * 0.38f,270, 75), "High Scores"))
 
-		GUI.Button (new Rect (Screen.width * 0.18f, Screen.height * 0.32f,270, 85), "High Scores");
+		{
+			Application.LoadLevel("HighScores");
+		}
 
 	}
 

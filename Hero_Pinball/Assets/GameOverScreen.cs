@@ -13,7 +13,7 @@ public class GameOverScreen : MonoBehaviour {
 			//Displays buttons
 			if (GUI.Button (new Rect (Screen.width * 0.5f - 270, Screen.height * 0.6f, 230, 85), "Main Menu")) 
 			{
-				Application.LoadLevel(0);
+				Application.LoadLevel("StartMenu");
 			}
 			
 

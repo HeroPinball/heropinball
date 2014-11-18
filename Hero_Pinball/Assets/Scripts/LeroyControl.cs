@@ -14,7 +14,7 @@ public class LeroyControl : MonoBehaviour
 	private float maxWalkSpeed = 3.0f;
 	private float maxSpeed = 3.0f;
 	private int walkForce = 50;
-	private int jumpForce = 500;
+	private int jumpForce = 250;
 
 	private Boolean facingRight = true;
 	private Boolean grounded; 

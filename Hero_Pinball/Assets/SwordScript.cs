@@ -26,6 +26,13 @@ public class SwordScript : MonoBehaviour {
 			c.gameObject.SendMessage("kill");
 			score = score + 100;
 		}
+		
+		if (c.gameObject.CompareTag ("Boss") && attacking )
+		{
+			
+			c.gameObject.SendMessage("damage");
+			score = score + 200;
+		}
 
 	}
 
