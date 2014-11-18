@@ -20,7 +20,7 @@ public class SwordScript : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D c)
 	{
 
-		if (c.gameObject.CompareTag ("Damaging") && attacking )
+		if (c.gameObject.CompareTag ("Enemy") && attacking )
 		{
 	
 			c.gameObject.SendMessage("kill");

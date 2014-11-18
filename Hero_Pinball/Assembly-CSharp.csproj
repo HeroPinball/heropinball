@@ -53,12 +53,13 @@
      <Compile Include="Assets\InstructionsText.cs" />
      <Compile Include="Assets\LauncherScript.cs" />
      <Compile Include="Assets\OneWayPlatform.cs" />
-     <Compile Include="Assets\Prefabs\Characters\Creep\EnemyControl.cs" />
+     <Compile Include="Assets\PickupSpawner.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Bumper\RoundBumper\BumperScript.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Flipper\FlipperControl.cs" />
      <Compile Include="Assets\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\BossBehavior.cs" />
      <Compile Include="Assets\Scripts\CoinScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyControl.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\FireballScript.cs" />
      <Compile Include="Assets\Scripts\HeartPickup.cs" />

@@ -2,11 +2,17 @@
 using System.Collections;
 
 public class CoinScript : MonoBehaviour {
-	public int score = 0;
-	public GameObject coin;
+	private GameObject player;
+	private LeroyControl script;
+	private GameObject pickupSpawner;
+	private GameObject scorekeeper;
+	
 	// Use this for initialization
 	void Start () {
-		coin = GameObject.FindGameObjectWithTag ("Coin");
+		player = GameObject.FindGameObjectWithTag("Player");
+		script = player.GetComponent<LeroyControl>();
+		pickupSpawner = GameObject.FindGameObjectWithTag("PickupSpawner");
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
 	}
 	
 	// Update is called once per frame
@@ -20,11 +26,15 @@ public class CoinScript : MonoBehaviour {
 		if (p.gameObject.CompareTag ("Player"))
 		{
 			
-			p.gameObject.SendMessage("Loot!");
-			score = score + 250;
-			Destroy(coin);
+			//p.gameObject.SendMessage("Healed!");
+			
+			scorekeeper.SendMessage("coin");
+			pickupSpawner.SendMessage("pickedUp");
+			Destroy(gameObject);
 		}
 		
 	}
+	
+	
 	
 }

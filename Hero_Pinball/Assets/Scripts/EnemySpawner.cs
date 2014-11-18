@@ -5,7 +5,7 @@ public class EnemySpawner : MonoBehaviour {
 
 	public int maxEnemies = 5;
 	private int numEnemies = 0;
-	public static int spawnTime = 200;
+	public static int spawnTime = 300;
 	private int timer = spawnTime;
 	public Transform creep;
 

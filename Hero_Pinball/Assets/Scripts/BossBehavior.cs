@@ -10,6 +10,8 @@ public class BossBehavior : MonoBehaviour
 	public static float eyeWait = 200;
 	public float eyeTimer = eyeWait;
 	
+	public Animator animator;
+	
 	GameObject[] sockets;
 	Vector3[] positions;
 	
@@ -34,6 +36,7 @@ public class BossBehavior : MonoBehaviour
 	}
 	void damage () 
 	{
+		animator.SetTrigger("Damage");
 		bossHealth--;
 		move ();
 		if (bossHealth <= 0 )

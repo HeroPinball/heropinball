@@ -20,7 +20,7 @@ public class LeroyControl : MonoBehaviour
 	private Boolean grounded; 
 	private Boolean jump;
 	public bool attacking;
-	private static int attackTime = 35;
+	private static int attackTime = 25;
 	private int attackTimeCur = attackTime;
 	public Transform groundCheck;
 
@@ -43,7 +43,7 @@ public class LeroyControl : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D c)
 	{
 
-		if (c.gameObject.CompareTag ("Damaging") && !attacking) 
+		if ((c.gameObject.CompareTag ("Damaging") || c.gameObject.CompareTag ("Enemy") )&& !attacking) 
 		{
 			Debug.Log ("ow");
 			health--;

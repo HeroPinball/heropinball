@@ -9,6 +9,7 @@ public class ScoreScript : MonoBehaviour {
 	
 	private SwordScript script;
 
+	public int score;
 	//private CoinScript cScript;
 	
 	// Use this for initialization
@@ -22,7 +23,12 @@ public class ScoreScript : MonoBehaviour {
 	
 	void FixedUpdate()
 	{
-		guiText.text = "Score: " + (script.score);
+		guiText.text = "Score: " + (script.score + score);
 	}
+	
+	void coin(){ score += 250;}
+	
+	
+	
 	
 }
