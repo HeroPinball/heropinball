@@ -45,40 +45,46 @@ public class LeroyControl : MonoBehaviour
 
 		if ((c.gameObject.CompareTag ("Damaging") || c.gameObject.CompareTag ("Enemy") )&& !attacking) 
 		{
-			Debug.Log ("ow");
-			health--;
-			if (health == 0)
-			{
 
-				lives--;
-				health = maxHealth;
-				Debug.Log ("DEAD!");
-				transform.position = spawn;
-				if (lives == 0)
-				{
-					gameOver(c.gameObject);
-				}
-			}
+			takeDamage ();
+
 		}
 
 		if (c.gameObject.CompareTag ("killBox")) 
 		{
-			lives--;
-			health = maxHealth;
-			Debug.Log ("DEAD!");
-			transform.position = spawn;
-			if (lives == 0)
-			{
-				gameOver(c.gameObject);
-			}
+			loseLife ();
 		}
 
 	}
 
-	void gameOver(GameObject c)
+	void loseLife()
 	{
-		c.gameObject.tag = "Player";
-		Destroy (gameObject);
+		lives--;
+		health = maxHealth;
+		transform.position = spawn;
+		if (lives == 0)
+		{
+			gameOver();
+		}
+
+	}
+
+	void takeDamage()
+	{
+		health--;
+		if (health == 0)
+		{
+			loseLife ();
+			
+		} 
+	}
+
+
+
+	void gameOver()
+	{
+
+		//Destroy (gameObject);
 		Application.LoadLevel("GameOver");
 
 	}
