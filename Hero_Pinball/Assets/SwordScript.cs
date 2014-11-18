@@ -3,12 +3,14 @@ using System.Collections;
 
 public class SwordScript : MonoBehaviour {
 
-	public int score = 0;
+	//public int score = 0;
 	private bool attacking;
+	private GameObject scorekeeper;
 	// Use this for initialization
 	void Start () {
 
 		attacking = false;
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
 	
 	}
 	
@@ -24,14 +26,14 @@ public class SwordScript : MonoBehaviour {
 		{
 	
 			c.gameObject.SendMessage("kill");
-			score = score + 100;
+			scorekeeper.SendMessage("enemy");
 		}
 		
 		if (c.gameObject.CompareTag ("Boss") && attacking )
 		{
 			
 			c.gameObject.SendMessage("damage");
-			score = score + 200;
+			scorekeeper.SendMessage("boss");
 		}
 
 	}

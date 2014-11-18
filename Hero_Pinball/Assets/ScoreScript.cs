@@ -19,15 +19,20 @@ public class ScoreScript : MonoBehaviour {
 		//coin = GameObject.FindGameObjectWithTag("Coin");
 		script = sword.GetComponent<SwordScript>();
 		//cScript = coin.GetComponent<CoinScript>();
+
+
+		//DontDestroyOnLoad(gameObject);
 	}
 	
 	void FixedUpdate()
 	{
-		guiText.text = "Score: " + (script.score + score);
+
+		guiText.text = "Score: " + score;
 	}
 	
 	void coin(){ score += 250;}
-	
+	void enemy(){ score += 100;}
+	void boss(){ score += 200;}
 	
 	
 	

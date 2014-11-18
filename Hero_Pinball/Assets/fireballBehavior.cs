@@ -21,7 +21,7 @@ public class fireballBehavior : MonoBehaviour {
 		posY = transform.position.x;
 		fireballSpawner = GameObject.FindGameObjectWithTag("BossMouth");
 		rigidbody2D.AddForce(new Vector2((posX - pPosX)*( -speedBoost), (posY - pPosY) * -speedBoost) );
-		transform.rotation = new Quaternion((posX - pPosX)* 360,(posY - pPosY)* 360,0);
+		//transform.rotation = new Quaternion((posX - pPosX)* 360,(posY - pPosY)* 360,0);
 	}
 
 	void FixedUpdate()
@@ -41,17 +41,12 @@ public class fireballBehavior : MonoBehaviour {
 
 		if (p.gameObject.CompareTag ("Platform"))
 		{
-			
-			
-
 			fireballSpawner.SendMessage("fbDestroyed");
 			Destroy(gameObject);
 		}
 		
 		if (p.gameObject.CompareTag ("Player"))
 		{
-
-
 			player.SendMessage("takeDamage");
 			fireballSpawner.SendMessage("fbDestroyed");
 			Destroy(gameObject);
