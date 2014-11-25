@@ -25,6 +25,8 @@ public class LeroyControl : MonoBehaviour
 	public Transform groundCheck;
 
 	private float input;
+	
+	private GameObject scorekeeper;
 
 	//private float vX;
 	private float vY;
@@ -38,6 +40,8 @@ public class LeroyControl : MonoBehaviour
 	{
 		spawn = transform.position;
 		sword = GameObject.FindGameObjectWithTag("Sword");
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
+		lives = scorekeeper.GetComponent<ScoreScript>().lives;
 	}
 
 	void OnCollisionEnter2D(Collision2D c)
@@ -59,10 +63,10 @@ public class LeroyControl : MonoBehaviour
 
 	void loseLife()
 	{
-		lives--;
+		scorekeeper.GetComponent<ScoreScript>().lives--;
 		health = maxHealth;
 		transform.position = spawn;
-		if (lives == 0)
+		if (scorekeeper.GetComponent<ScoreScript>().lives <= 0)
 		{
 			gameOver();
 		}
@@ -172,9 +176,6 @@ public class LeroyControl : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
-	int getHealth()
-	{
-		return health;
-	}
+
 
 }

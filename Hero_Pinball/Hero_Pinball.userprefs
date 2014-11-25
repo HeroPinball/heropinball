@@ -2,16 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScoreScript.cs">
     <Files>
-      <File FileName="Assets/fireballBehavior.cs" Line="43" Column="4" />
-      <File FileName="Assets/launchFireball.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameOverScreen.cs" Line="12" Column="27" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/fireballBehavior.cs" Line="58" Column="1" />
-      <File FileName="Assets/Scripts/HeartPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HeartScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LeroyControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/ScoreScript.cs" Line="24" Column="5" />
-      <File FileName="Assets/SwordScript.cs" Line="13" Column="65" />
+      <File FileName="Assets/Scripts/BossBehavior.cs" Line="43" Column="16" />
+      <File FileName="Assets/ScoreScript.cs" Line="34" Column="11" />
+      <File FileName="Assets/Scripts/StartMenu.cs" Line="24" Column="2" />
+      <File FileName="Assets/SwordScript.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

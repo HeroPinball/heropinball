@@ -7,8 +7,13 @@ public class StartMenu : MonoBehaviour
 {
 
 	public GUISkin custGUISkin;
-
-
+	public GameObject scorekeeper;
+	
+	void Start()
+	{
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
+	}
+	
 	void OnGUI()
 	{
 
@@ -16,7 +21,8 @@ public class StartMenu : MonoBehaviour
 		//Displays buttons
 		if (GUI.Button (new Rect (Screen.width * 0.15f, Screen.height * 0.18f, 270, 75), "Play")) 
 		{
-			Application.LoadLevel("Alpha");
+	
+			scorekeeper.SendMessage("NextLevel");
 		}
 
 		if(GUI.Button (new Rect (Screen.width * 0.15f, Screen.height * 0.28f, 270, 75), "Instructions"))

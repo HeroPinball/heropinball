@@ -3,15 +3,15 @@ using System.Collections;
 
 public class GUILivesScript : MonoBehaviour {
 
-	public GameObject player;
+	public GameObject scorekeeper;
 	
-	public LeroyControl script;
+	public ScoreScript script;
 
 	// Use this for initialization
 	void Start () {
 		
-		player = GameObject.FindGameObjectWithTag("Player");
-		script = player.GetComponent<LeroyControl>();
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
+		script = scorekeeper.GetComponent<ScoreScript>();
 		
 	}
 

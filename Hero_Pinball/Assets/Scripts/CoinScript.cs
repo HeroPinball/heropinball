@@ -25,9 +25,6 @@ public class CoinScript : MonoBehaviour {
 		
 		if (p.gameObject.CompareTag ("Player"))
 		{
-			
-			//p.gameObject.SendMessage("Healed!");
-			
 			scorekeeper.SendMessage("coin");
 			pickupSpawner.SendMessage("pickedUp");
 			Destroy(gameObject);

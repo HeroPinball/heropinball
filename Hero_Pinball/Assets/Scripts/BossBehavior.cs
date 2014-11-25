@@ -15,6 +15,8 @@ public class BossBehavior : MonoBehaviour
 	GameObject[] sockets;
 	Vector3[] positions;
 	
+	GameObject scorekeeper;
+	
 	void Start ()
 	{
 		sockets = GameObject.FindGameObjectsWithTag("Socket");
@@ -22,6 +24,7 @@ public class BossBehavior : MonoBehaviour
 		for (int i = 0 ; i < sockets.Length ; i++ )
 			positions[i] = sockets[i].transform.position;
 		move();
+		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
 		
 	}
 	// Update is called once per frame
@@ -40,7 +43,13 @@ public class BossBehavior : MonoBehaviour
 		bossHealth--;
 		move ();
 		if (bossHealth <= 0 )
+		{
 			Destroy(gameObject);
+			scorekeeper.SendMessage("NextLevel");
+
+		}
+			
+			
 			
 		
 	}
