@@ -89,6 +89,7 @@ public class LeroyControl : MonoBehaviour
 	{
 
 		//Destroy (gameObject);
+		scorekeeper.SendMessage("setGameOver");
 		Application.LoadLevel("GameOver");
 
 	}

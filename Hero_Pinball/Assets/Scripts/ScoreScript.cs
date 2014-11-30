@@ -8,6 +8,7 @@ public class ScoreScript : MonoBehaviour {
 	public int score;
 	public int level;
 	public int lives;
+	public bool gameOver;
 	//private CoinScript cScript;
 	
 	// Use this for initialization
@@ -18,6 +19,7 @@ public class ScoreScript : MonoBehaviour {
 		level = 0;
 		lives = 3;
 		guiText.text = "";
+		gameOver = false;
 		GameObject[] s = GameObject.FindGameObjectsWithTag("Scorekeeper");
 			DontDestroyOnLoad(s[0]);
 		for (int i = 1 ; i < s.Length; i ++)
@@ -27,7 +29,7 @@ public class ScoreScript : MonoBehaviour {
 	
 	void FixedUpdate()
 	{
-		if (level != 0)
+		if (level != 0 && gameOver == false)
 			guiText.text = "Score: " + score;
 
 			
@@ -36,6 +38,12 @@ public class ScoreScript : MonoBehaviour {
 	void coin(){ score += 250;}
 	void enemy(){ score += 100;}
 	void boss(){ score += 200;}
+	void setGameOver()
+	{
+		gameOver = true;			
+		guiText.text = "";
+	}
+		 
 
 	void NextLevel()
 	{ 

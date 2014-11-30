@@ -47,14 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GUILivesScript.cs" />
+     <Compile Include="Assets\GameOverReport.cs" />
      <Compile Include="Assets\GameOverScreen.cs" />
      <Compile Include="Assets\HealthBar.cs" />
+     <Compile Include="Assets\HighScoreDisplay.cs" />
      <Compile Include="Assets\InstructionsBackButton.cs" />
      <Compile Include="Assets\InstructionsText.cs" />
      <Compile Include="Assets\OneWayPlatform.cs" />
      <Compile Include="Assets\PickupSpawner.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Bumper\RoundBumper\BumperScript.cs" />
      <Compile Include="Assets\Prefabs\PinballFeatures\PinballFeatures\Flipper\FlipperControl.cs" />
+     <Compile Include="Assets\ResetButton.cs" />
      <Compile Include="Assets\Scripts\BossBehavior.cs" />
      <Compile Include="Assets\Scripts\CoinScript.cs" />
      <Compile Include="Assets\Scripts\EnemyControl.cs" />
