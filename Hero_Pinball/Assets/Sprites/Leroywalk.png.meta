@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 8b0fec499aa4b4d53b917694368d2672
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Leroywalk_0
+    21300002: Leroywalk_1
+    21300004: Leroywalk_2
+    21300006: Leroywalk_3
+    21300008: Leroywalk_4
+    21300010: Leroywalk_5
+    21300012: Leroywalk_6
+    21300014: Leroywalk_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Leroywalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 279
+        height: 438
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 240
+        height: 438
+      alignment: 9
+      pivot: {x: .639999986, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 237
+        height: 438
+      alignment: 9
+      pivot: {x: .659407616, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_3
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 258
+        height: 438
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 255
+        height: 438
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_5
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 0
+        width: 231
+        height: 438
+      alignment: 9
+      pivot: {x: .639999986, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_6
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 0
+        width: 206
+        height: 438
+      alignment: 9
+      pivot: {x: .639999986, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leroywalk_7
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 0
+        width: 220
+        height: 438
+      alignment: 9
+      pivot: {x: .660000026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

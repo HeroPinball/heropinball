@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\launchFireball.cs" />
      <Compile Include="Assets\Scripts\shootFireball.cs" />
+     <Compile Include="Assets\SocketScript.cs" />
      <Compile Include="Assets\SwordScript.cs" />
      <Compile Include="Assets\fireballBehavior.cs" />
   </ItemGroup>

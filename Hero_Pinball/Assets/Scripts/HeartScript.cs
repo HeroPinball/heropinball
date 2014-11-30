@@ -9,7 +9,7 @@ public class HeartScript : MonoBehaviour {
 	private GameObject pickupSpawner;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		player = GameObject.FindGameObjectWithTag("Player");
 		script = player.GetComponent<LeroyControl>();
 		pickupSpawner = GameObject.FindGameObjectWithTag("PickupSpawner");

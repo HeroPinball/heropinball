@@ -1,12 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScoreScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HeartScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/LeroyControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BossBehavior.cs" Line="43" Column="16" />
-      <File FileName="Assets/ScoreScript.cs" Line="34" Column="11" />
-      <File FileName="Assets/Scripts/StartMenu.cs" Line="24" Column="2" />
-      <File FileName="Assets/SwordScript.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/LeroyControl.cs" Line="125" Column="21" />
+      <File FileName="Assets/Scripts/BossBehavior.cs" Line="63" Column="44" />
+      <File FileName="Assets/Scripts/StartMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/SwordScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CoinScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameOverScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/fireballBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/GUILivesScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/SocketScript.cs" Line="11" Column="3" />
+      <File FileName="Assets/Scripts/HeartScript.cs" Line="22" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

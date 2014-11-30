@@ -30,6 +30,10 @@ public class EnemyControl : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
+	
+		float yVelocity = rigidbody2D.velocity.x;
+		animator.SetFloat("yVelocity", yVelocity);
+		
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
 
 		waitTime--;

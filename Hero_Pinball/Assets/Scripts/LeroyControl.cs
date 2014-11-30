@@ -98,12 +98,15 @@ public class LeroyControl : MonoBehaviour
 		maxHealthRef = maxHealth;
 
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
-
+		animator.SetBool("Grounded", grounded);
+		
 		input = Input.GetAxis("Horizontal");
 
 		//vX = rigidbody2D.velocity.x;
 		vY = rigidbody2D.velocity.y;
 
+		
+		
 		maxSpeed = Mathf.Max (vY, maxWalkSpeed);
 
 
@@ -117,6 +120,10 @@ public class LeroyControl : MonoBehaviour
 		if(Mathf.Abs(rigidbody2D.velocity.x) > maxSpeed)
 			// ... set the player's velocity to the maxSpeed in the x axis.
 			rigidbody2D.velocity = new Vector2(Mathf.Sign(rigidbody2D.velocity.x) * maxSpeed, rigidbody2D.velocity.y);
+		
+		
+		float walkSpeed = rigidbody2D.velocity.x;
+		animator.SetFloat("WalkSpeed", Math.Abs(walkSpeed));
 		
 		// If the input is moving the player right and the player is facing left...
 		if(input > 0 && !facingRight)

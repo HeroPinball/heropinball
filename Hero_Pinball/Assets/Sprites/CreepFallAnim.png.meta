@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 07726fd370b18426aaac57f9c7a49e87
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CreepFallAnim_0
+    21300002: CreepFallAnim_1
+    21300004: CreepFallAnim_2
+    21300006: CreepFallAnim_3
+    21300008: CreepFallAnim_4
+    21300010: CreepFallAnim_5
+    21300012: CreepFallAnim_6
+    21300014: CreepFallAnim_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CreepFallAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 211
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 9
+        width: 212
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 7
+        width: 214
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 7
+        width: 211
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 5
+        width: 212
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_5
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2
+        width: 214
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_6
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 3
+        width: 231
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreepFallAnim_7
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 0
+        width: 211
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

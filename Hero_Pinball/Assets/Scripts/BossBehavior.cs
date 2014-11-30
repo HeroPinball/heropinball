@@ -60,6 +60,7 @@ public class BossBehavior : MonoBehaviour
 		int random = socGen.Next (0, sockets.Length);
 		Vector3 newPos = positions[random];
 		transform.position = newPos ;	
+		sockets[random].SendMessage("setActive");
 	}
 	
 }
