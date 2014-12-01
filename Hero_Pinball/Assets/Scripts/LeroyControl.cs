@@ -36,6 +36,10 @@ public class LeroyControl : MonoBehaviour
 	public Animator animator;
 	private GameObject sword;
 
+	public AudioSource Jump;
+	public AudioSource SwordSwing;
+	public AudioSource PlayerHit;
+	public AudioSource PlayerDie;
 	void Awake()
 	{
 		spawn = transform.position;
@@ -57,6 +61,7 @@ public class LeroyControl : MonoBehaviour
 		if (c.gameObject.CompareTag ("killBox")) 
 		{
 			loseLife ();
+			PlayerDie.Play();
 		}
 
 	}
@@ -76,9 +81,11 @@ public class LeroyControl : MonoBehaviour
 	void takeDamage()
 	{
 		health--;
+		PlayerHit.Play ();
 		if (health == 0)
 		{
 			loseLife ();
+			PlayerDie.Play();
 			
 		} 
 	}
@@ -139,6 +146,7 @@ public class LeroyControl : MonoBehaviour
 		{
 				
 				jump = true;
+			    Jump.Play();
 		}
 		// If the player should jump...
 		if(jump)
@@ -155,6 +163,7 @@ public class LeroyControl : MonoBehaviour
 			animator.SetTrigger("Attack");
 			attacking = true;
 			sword.SendMessage("isAttacking");
+			SwordSwing.Play();
 		}
 		if (attacking) 
 		{
