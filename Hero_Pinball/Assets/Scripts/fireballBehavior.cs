@@ -12,7 +12,7 @@ public class fireballBehavior : MonoBehaviour {
 	private int lifespan = 300;
 	private GameObject fireballSpawner;
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
 		pPosX = player.transform.position.x;

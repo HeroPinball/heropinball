@@ -57,9 +57,16 @@ public class GameOverReport : MonoBehaviour
 	
 		PlayerPrefs.SetInt("Score"+(replaceIndex), score);
 		
-
-		if (newHighscore)
-			hs.guiText.text = "New Highscore! " + ((replaceIndex -10 ) * -1)+"th Place";
+		int place = (replaceIndex -10 ) * -1;
+		
+		if (newHighscore && place == 1)
+			hs.guiText.text = "New Highscore! " + place +"st Place";
+		else if (newHighscore && place == 2)
+			hs.guiText.text = "New Highscore! " + place +"nd Place";
+		else if (newHighscore && place == 3)
+			hs.guiText.text = "New Highscore! " + place +"rd Place";
+		else if (newHighscore && place > 3)
+			hs.guiText.text = "New Highscore! " + place +"th Place";
 	
 	}
 }

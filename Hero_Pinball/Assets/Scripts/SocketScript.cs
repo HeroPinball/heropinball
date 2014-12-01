@@ -6,18 +6,15 @@ public class SocketScript : MonoBehaviour {
 	public Animator animator;
 	private int index;
 	private GameObject[] sockets;
+	private GameObject socket;
 	// Use this for initialization
 	void Awake () 
 	{
 	
 		animator.SetBool("Active", false);
 		sockets = GameObject.FindGameObjectsWithTag("Socket");
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+
 	}
 	
 	void setActive()

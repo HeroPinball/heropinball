@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 9680128d67a7847369e635d13e118de9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MonsterEyesCracked_0
+    21300002: MonsterEyesCracked_1
+    21300004: MonsterEyesCracked_2
+    21300006: MonsterEyesCracked_3
+    21300008: MonsterEyesCracked_4
+    21300010: MonsterEyesCracked_5
+    21300012: MonsterEyesCracked_6
+    21300014: MonsterEyesCracked_7
+    21300016: MonsterEyesCracked_8
+    21300018: MonsterEyesCracked_9
+    21300020: MonsterEyesCracked_10
+    21300022: MonsterEyesCracked_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MonsterEyesCracked_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 517
+        width: 279
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 510
+        width: 279
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 517
+        width: 278
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_3
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 523
+        width: 277
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 258
+        width: 278
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 251
+        width: 279
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 258
+        width: 279
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_7
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 264
+        width: 279
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 277
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 279
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 6
+        width: 279
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MonsterEyesCracked_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 11
+        width: 279
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
