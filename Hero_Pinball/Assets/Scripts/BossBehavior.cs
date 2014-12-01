@@ -9,6 +9,7 @@ public class BossBehavior : MonoBehaviour
 	public float totalTime;
 	public static float eyeWait = 200;
 	public float eyeTimer = eyeWait;
+	public AudioSource Death;
 	
 	public Animator animator;
 	
@@ -44,6 +45,7 @@ public class BossBehavior : MonoBehaviour
 		move ();
 		if (bossHealth <= 0 )
 		{
+			Death.Play();
 			Destroy(gameObject);
 			scorekeeper.SendMessage("NextLevel");
 

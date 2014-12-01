@@ -40,6 +40,12 @@ public class LeroyControl : MonoBehaviour
 	public AudioSource SwordSwing;
 	public AudioSource PlayerHit;
 	public AudioSource PlayerDie;
+	public AudioSource Bumper;
+	public AudioSource Flipper;
+	public AudioSource Start;
+	public AudioSource Treasure;
+	public AudioSource Health;
+
 	void Awake()
 	{
 		spawn = transform.position;
@@ -57,6 +63,18 @@ public class LeroyControl : MonoBehaviour
 			takeDamage ();
 
 		}
+		if ((c.gameObject.CompareTag ("Bumper"))) 
+		{
+			Bumper.Play();
+			
+		}
+		
+		if ((c.gameObject.CompareTag ("Flipper"))) 
+		    {
+			Flipper.Play();
+			
+		}
+
 
 		if (c.gameObject.CompareTag ("killBox")) 
 		{
@@ -66,11 +84,25 @@ public class LeroyControl : MonoBehaviour
 
 	}
 
+	void OnTriggerEnter2D(Collider2D t) {
+
+		
+				if ((t.gameObject.CompareTag ("Healing"))) {
+						Health.Play ();
+			
+				}
+		
+				if ((t.gameObject.CompareTag ("Treasure"))) {
+						Treasure.Play ();
+			
+				}
+		}
 	void loseLife()
 	{
 		scorekeeper.GetComponent<ScoreScript>().lives--;
 		health = maxHealth;
 		transform.position = spawn;
+		Start.Play ();
 		if (scorekeeper.GetComponent<ScoreScript>().lives <= 0)
 		{
 			gameOver();
@@ -146,7 +178,7 @@ public class LeroyControl : MonoBehaviour
 		{
 				
 				jump = true;
-			    Jump.Play();
+			Jump.Play();
 		}
 		// If the player should jump...
 		if(jump)
