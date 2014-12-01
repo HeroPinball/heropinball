@@ -31,7 +31,7 @@ public class EnemyControl : MonoBehaviour
 	void FixedUpdate () 
 	{
 	
-		float yVelocity = rigidbody2D.velocity.x;
+		float yVelocity = rigidbody2D.velocity.y;
 		animator.SetFloat("yVelocity", yVelocity);
 		
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("OneWayPlatforms")) ||Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ;   
@@ -50,10 +50,15 @@ public class EnemyControl : MonoBehaviour
 				flip ();
 
 			if (facingRight && grounded)
+			{
 				rigidbody2D.AddForce(new Vector2(jumpForce,jumpForce)); 
+				animator.SetTrigger("Leap");
+			}
 			if (!facingRight && grounded)
+			{
 				rigidbody2D.AddForce(new Vector2(jumpForce * -1,jumpForce)); 
-
+				animator.SetTrigger("Leap");
+			}
 			waitTime = initWaitTime;
 		}
 

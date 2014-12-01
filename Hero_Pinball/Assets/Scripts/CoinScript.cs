@@ -2,15 +2,14 @@
 using System.Collections;
 
 public class CoinScript : MonoBehaviour {
-	private GameObject player;
-	private LeroyControl script;
+
+
 	private GameObject pickupSpawner;
 	private GameObject scorekeeper;
 	
 	// Use this for initialization
-	void Start () {
-		player = GameObject.FindGameObjectWithTag("Player");
-		script = player.GetComponent<LeroyControl>();
+	void Awake ()
+	 {
 		pickupSpawner = GameObject.FindGameObjectWithTag("PickupSpawner");
 		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
 	}

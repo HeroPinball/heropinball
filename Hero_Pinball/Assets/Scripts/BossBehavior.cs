@@ -20,12 +20,16 @@ public class BossBehavior : MonoBehaviour
 	void Start ()
 	{
 		sockets = GameObject.FindGameObjectsWithTag("Socket");
+		//Destroy(sockets[0]);
+		//Destroy(sockets[1]);
+		
 		positions = new Vector3[sockets.Length];
 		for (int i = 0 ; i < sockets.Length ; i++ )
-			positions[i] = sockets[i].transform.position;
+			positions[i] = new Vector3( sockets[i].transform.position.x , sockets[i].transform.position.y, sockets[i].transform.position.z + 2);
 		move();
 		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
-		
+
+
 	}
 	// Update is called once per frame
 	void FixedUpdate ()
@@ -56,9 +60,11 @@ public class BossBehavior : MonoBehaviour
 	
 	void move()
 	{
+
 		System.Random socGen = new System.Random ();
 		int random = socGen.Next (0, sockets.Length);
 		Vector3 newPos = positions[random];
+		
 		transform.position = newPos ;	
 		sockets[random].SendMessage("setActive");
 	}

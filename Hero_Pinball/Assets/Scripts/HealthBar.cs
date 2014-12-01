@@ -27,7 +27,11 @@ public class HealthBar : MonoBehaviour {
 	{
 		if (player != null)
 		{
-			guiTexture.pixelInset = new Rect(x,y, w * script.health / LeroyControl.maxHealth,h);
+			guiTexture.pixelInset = new Rect(x,y, 0,h);
+			//Super crappy hacky way of getting desired effect
+			//Set rightBorder of GUItexture to a large negative number to repeat
+			//The health block the desired number of times
+			guiTexture.border = new RectOffset(0, (script.health * -36) -4,0,0);
 		}
 	
 	}

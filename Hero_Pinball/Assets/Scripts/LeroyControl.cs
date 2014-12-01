@@ -16,7 +16,7 @@ public class LeroyControl : MonoBehaviour
 	private int walkForce = 50;
 	private int jumpForce = 250;
 
-	private Boolean facingRight = true;
+	public Boolean facingRight = true;
 	private Boolean grounded; 
 	private Boolean jump;
 	public bool attacking;
