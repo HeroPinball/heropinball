@@ -165,6 +165,9 @@ public class LeroyControl : MonoBehaviour
 		float walkSpeed = rigidbody2D.velocity.x;
 		animator.SetFloat("WalkSpeed", Math.Abs(walkSpeed));
 		
+		float launchSpeed = rigidbody2D.velocity.y;
+		animator.SetFloat("LaunchSpeed", launchSpeed);
+		
 		// If the input is moving the player right and the player is facing left...
 		if(input > 0 && !facingRight)
 			// ... flip the player.

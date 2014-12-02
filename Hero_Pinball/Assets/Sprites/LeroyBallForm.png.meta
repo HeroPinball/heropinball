@@ -1,0 +1,91 @@
+fileFormatVersion: 2
+guid: 14c2fdb00f7214d80b2f90bb6e9bb0f7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LeroyBallForm_0
+    21300002: LeroyBallForm_1
+    21300004: LeroyBallForm_2
+    21300006: LeroyBallForm_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LeroyBallForm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 404
+        height: 843
+      alignment: 9
+      pivot: {x: .680000007, y: .0900000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyBallForm_1
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 601
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyBallForm_2
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 250
+        width: 348
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeroyBallForm_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 121
+        width: 525
+        height: 693
+      alignment: 9
+      pivot: {x: .649999976, y: .189999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

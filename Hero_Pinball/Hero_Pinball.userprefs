@@ -1,14 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LeroyControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OneWayPlatform.cs">
     <Files>
-      <File FileName="Assets\Scripts\LeroyControl.cs" Line="95" Column="11" />
-      <File FileName="Assets\GameOverReport.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ScoreScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\HighScoreDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets\ResetButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\InstructionsBackButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\BossBehavior.cs" Line="68" Column="2" />
+      <File FileName="Assets/Scripts/LeroyControl.cs" Line="169" Column="59" />
+      <File FileName="Assets/Scripts/BossBehavior.cs" Line="52" Column="1" />
+      <File FileName="Assets/Scripts/HealthBar.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/OneWayPlatform.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
