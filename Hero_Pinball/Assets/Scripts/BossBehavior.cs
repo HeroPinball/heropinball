@@ -10,6 +10,9 @@ public class BossBehavior : MonoBehaviour
 	public static float eyeWait = 200;
 	public float eyeTimer = eyeWait;
 	public AudioSource Death;
+	public AudioSource song1;
+	public AudioSource song2;
+	public AudioSource song3;
 	
 	public Animator animator;
 	
@@ -47,8 +50,24 @@ public class BossBehavior : MonoBehaviour
 		animator.SetTrigger("Damage");
 		bossHealth--;
 		move ();
+		
+		if (bossHealth == 2)
+			{
+				song1.Stop();
+				song2.Play();
+			
+			}
+			
+		if (bossHealth == 1)
+		{
+	
+			song3.Play();
+			
+		}
+		
 		if (bossHealth <= 0 )
 		{
+			song3.Stop();
 			Death.Play();
 			Destroy(gameObject);
 			scorekeeper.SendMessage("NextLevel");
