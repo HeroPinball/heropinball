@@ -63,7 +63,7 @@ public class BossBehavior : MonoBehaviour
 			
 		if (bossHealth == 1)
 		{
-	
+			song2.Stop();
 			song3.Play();
 			
 		}

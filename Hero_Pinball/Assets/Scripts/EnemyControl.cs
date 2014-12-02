@@ -100,6 +100,7 @@ public class EnemyControl : MonoBehaviour
 
 	void kill()
 	{
+		gameObject.audio.Play();
 		Destroy (gameObject, 0.25f);
 		animator.SetTrigger("Dead");
 		GameObject.FindGameObjectWithTag("Spawner").SendMessage("enemyKilled");
