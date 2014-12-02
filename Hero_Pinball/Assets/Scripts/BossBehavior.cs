@@ -32,8 +32,11 @@ public class BossBehavior : MonoBehaviour
 			positions[i] = new Vector3( sockets[i].transform.position.x , sockets[i].transform.position.y, sockets[i].transform.position.z + 2);
 		move();
 		scorekeeper = GameObject.FindGameObjectWithTag("Scorekeeper");
-
-
+		song2.Stop();
+		song2.Stop();
+		
+		song1.Play();
+		
 	}
 	// Update is called once per frame
 	void FixedUpdate ()
