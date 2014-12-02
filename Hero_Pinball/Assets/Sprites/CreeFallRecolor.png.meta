@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 8def577cc2a194685a9dcf3ddd9d606f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CreeFallRecolor_0
+    21300002: CreeFallRecolor_1
+    21300004: CreeFallRecolor_2
+    21300006: CreeFallRecolor_3
+    21300008: CreeFallRecolor_4
+    21300010: CreeFallRecolor_5
+    21300012: CreeFallRecolor_6
+    21300014: CreeFallRecolor_7
+    21300016: CreeFallRecolor_8
+    21300018: CreeFallRecolor_9
+    21300020: CreeFallRecolor_10
+    21300022: CreeFallRecolor_11
+    21300024: CreeFallRecolor_12
+    21300026: CreeFallRecolor_13
+    21300028: CreeFallRecolor_14
+    21300030: CreeFallRecolor_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CreeFallRecolor_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 295
+        width: 251
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 298
+        width: 253
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 295
+        width: 251
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_3
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 298
+        width: 250
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_4
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 293
+        width: 250
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 12
+        width: 248
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_6
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 14
+        width: 250
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 14
+        width: 251
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_8
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 14
+        width: 249
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_9
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 14
+        width: 250
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_10
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 290
+        width: 246
+        height: 280
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_11
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 284
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_12
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 284
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_13
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 0
+        width: 252
+        height: 280
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_14
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1
+        width: 257
+        height: 284
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CreeFallRecolor_15
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 0
+        width: 274
+        height: 284
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
